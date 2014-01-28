@@ -19,7 +19,9 @@ Help to developers to manage in an effecient way errors in WebApi 2.1
 How to
 ====================================
 
-* Install GlobalErrorHandling.WebApi from Nuget Package Manager. If you prefer to use Package Manager Console:
-Install-Package GlobalErrorHandling.WebApi
+* Install **GlobalErrorHandling.WebApi** from Nuget Package Manager. If you prefer to use Package Manager Console:
+**Install-Package GlobalErrorHandling.WebApi
 * Open readme.txt and follow the instructions.
-* Run your Api and execute http://server:port/api/exception
+* Run your project from Visual Studio
+* Run Fiddler or similar tools (http://www.telerik.com/download/fiddler) 
+
