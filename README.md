@@ -15,3 +15,10 @@ Why?
 ====================================
 
 Help to developers to manage in an effecient way errors in WebApi 2.1
+
+How to
+====================================
+
+Install GlobalErrorHandling.WebApi from Nuget.
+Open readme.txt and follow the instructions.
+Run your Api and execute http://server:port/api/exception
