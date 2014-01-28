@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>GlobalErrorHandling.WebApi</id>
+        <version>1.0.0</version>
+        <title>Global Error Handling for WebApi 2.1</title>
+        <authors>Luis Ruiz Pavon</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The Global Error Handling for WebApi 2.1 automatically add to WebApi 2.1 project a global error handling. Developers can use these errors to support and show efficcients messages to the users.</description>
+        <tags>webapi</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.1">
+                <dependency id="Microsoft.AspNet.WebApi.Core" version="5.1.0" />
+                <dependency id="Microsoft.AspNet.WebApi.Client" version="5.1.0" />
+                <dependency id="Newtonsoft.Json" version="5.0.8" />
+                <dependency id="elmah" version="1.2.2" />
+                <dependency id="elmah.corelibrary" version="1.2.2" />
+            </group>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Microsoft.AspNet.WebApi.Core" version="5.1.0" />
+                <dependency id="Microsoft.AspNet.WebApi.Client" version="5.1.0" />
+                <dependency id="elmah" version="1.2.2" />
+                <dependency id="elmah.corelibrary" version="1.2.2" />
+                <dependency id="Newtonsoft.Json" version="5.0.8" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="content\Controllers\ExceptionController.cs.pp" target="content\Controllers\ExceptionController.cs.pp" />
+        <file src="content\ExceptionHandling\ApiExceptionHandler.cs.pp" target="content\ExceptionHandling\ApiExceptionHandler.cs.pp" />
+        <file src="content\ExceptionHandling\ElmahExceptionLogger.cs.pp" target="content\ExceptionHandling\ElmahExceptionLogger.cs.pp" />
+        <file src="content\Exceptions\ApiException.cs.pp" target="content\Exceptions\ApiException.cs.pp" />
+        <file src="content\Extensions\ExceptionExtensions.cs.pp" target="content\Extensions\ExceptionExtensions.cs.pp" />
+        <file src="content\Results\BadRequestCustomApiResult.cs.pp" target="content\Results\BadRequestCustomApiResult.cs.pp" />
+        <file src="content\Results\InternalServerErrorResult.cs.pp" target="content\Results\InternalServerErrorResult.cs.pp" />
+        <file src="readme.txt" target="readme.txt" />
+    </files>
+</package>
