@@ -43,3 +43,5 @@ Try to change **Accept** header to use **text/xml**:
 	<MoreInfo>http://dev.api.com/error/64</MoreInfo>
 </Error>
 ```
+
+Go to the browser and navigate to http://host:port/elmah.axd to see the exception details.
